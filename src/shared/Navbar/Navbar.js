@@ -41,6 +41,9 @@ const Navbar = () => {
               <Link to={"/courses"}>Courses</Link>
             </li>
             <li>
+              <Link to={"/faq"}>FAQ</Link>
+            </li>
+            <li>
               <Link to={"/blog"}>Blog</Link>
             </li>
           </ul>
@@ -55,6 +58,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link to={"/courses"}>Courses</Link>
+          </li>
+          <li>
+            <Link to={"/faq"}>FAQ</Link>
           </li>
           <li>
             <Link to={"/blog"}>Blog</Link>
