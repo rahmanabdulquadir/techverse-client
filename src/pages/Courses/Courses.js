@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import CoursesCard from "./CoursesCard";
 
 const Courses = () => {
@@ -15,7 +15,7 @@ const Courses = () => {
               htmlFor="my-drawer-2"
               className="btn btn-primary drawer-button lg:hidden"
             >
-              Open drawer
+              Courses
             </label>
           </div>
           <div className="drawer-side">
@@ -23,7 +23,7 @@ const Courses = () => {
             <ul className="menu p-4 w-80 bg-base-100 text-base-content">
               {courses.map((course) => (
                 <li>
-                  <a>{course.category_name}</a>
+                  <Link to={`/courses/${course.id}`}>{course.category_name}</Link>
                 </li>
               ))}
             </ul>

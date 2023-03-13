@@ -70,7 +70,7 @@ const Navbar = () => {
       {user?.uid ? (
         <>
           <div className="navbar-end">
-            <Link onClick={handleSignOut} className="btn">
+            <Link onClick={handleSignOut} className="btn btn-outline mr-5">
               Logout
             </Link>
           </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
         </>
       ) : (
         <div className="navbar-end">
-          <Link to={"/login"} className="btn">
+          <Link to={"/login"} className="btn btn-outline">
             Login
           </Link>
         </div>

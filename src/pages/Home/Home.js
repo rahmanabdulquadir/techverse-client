@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Stats from "./Stats";
+import Testimony from "./Testimony";
 
 const Home = () => {
   return (
@@ -12,7 +15,7 @@ const Home = () => {
         <div className="hero-overlay bg-opacity-30"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+            <h1 className="mb-5 text-5xl font-bold"><Link to={'/courses'}>Explore Courses</Link></h1>
             <p className="mb-5">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
@@ -22,6 +25,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Testimony></Testimony>
+      <Stats></Stats>
     </div>
   );
 };
