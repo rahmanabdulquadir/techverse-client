@@ -48,11 +48,11 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-2xl">TechVerse</a> <br />
+        <a className="btn btn-ghost normal-case text-2xl font-bold text-red-500">TechVerse</a> <br />
         {/* <small>Create Your Future With Tech</small> */}
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 font-semibold">
           <li>
             <Link to={"/"}>Home</Link>
           </li>

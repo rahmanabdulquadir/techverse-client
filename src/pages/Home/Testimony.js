@@ -11,7 +11,10 @@ const Testimony = () => {
             </h2>
             <p className="text-gray-600">
               Explore news, views and perspectives from Code Academy and your
-              alumni community.
+              alumni community. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Earum illo alias ipsa eaque unde voluptatum
+              vitae aperiam commodi excepturi a dolores, reiciendis ducimus
+              pariatur necessitatibus!
             </p>
           </div>
           <div className="p-6 xl:col-span-3">
